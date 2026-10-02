@@ -17,11 +17,6 @@ Projenin en az 8 ilişkisel tablo içermesi planlanmaktadır:
 - **Users:** Kullanıcı bilgileri
 - **Reviews:** Kullanıcı değerlendirmeleri
 
-## Kullanılacak Teknolojiler
-
-- **Veritabanı:** MS SQL Server
-- **Backend:** C# / ASP.NET Core MVC
-- **Arayüz:** HTML, CSS, Bootstrap
 
 ## Temel Özellik
 
