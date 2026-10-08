@@ -1,27 +1,58 @@
-# 🎮 Oyun Keşif ve Öneri Sistemi
+# 🎮 Ne Oynasak?
 
-Bu proje, Veri Tabanı Yönetimi dersi kapsamında geliştirilmektedir. Sistemin amacı; kullanıcıların kişi sayısı, platform, tür ve oynanış biçimine göre kendilerine uygun oyunları bulmasını sağlayan web tabanlı bir sistem oluşturmaktır.
+**Ne Oynasak?**, kullanıcıların kendilerine uygun oyunları keşfetmesini ve oyunlar hakkında bilgi edinmesini sağlayan web tabanlı bir oyun keşif platformudur.
 
-## Proje Kapsamı
+Kullanıcılar oyunları tür ve platform gibi özelliklere göre inceleyebilecek, oyun detaylarını görüntüleyebilecek, favorilerine ekleyebilecek ve oyunlara puan verip yorum yapabilecektir.
 
-Projenin en az 8 ilişkisel tablo içermesi planlanmaktadır:
+## 🎯 Projenin Özellikleri
 
-- **Games:** Oyun bilgileri
-- **Genres:** Oyun türleri
-- **Platforms:** Oyun platformları
-- **GameGenres:** Oyun-tür ilişkisi
-- **GamePlatforms:** Oyun-platform ilişkisi
-- **GameModes:** Oynanış türleri
-- **Developers:** Oyun geliştiricileri
-- **Publishers:** Oyun yayıncıları
-- **Users:** Kullanıcı bilgileri
-- **Reviews:** Kullanıcı değerlendirmeleri
+-  Oyunları keşfetme ve detaylarını görüntüleme
+-  Oyun arama ve filtreleme
+-  Tür ve platformlara göre listeleme
+-  Favori oyunlar
+-  Oyun durumunu belirleme
+-  Oyunlara puan verme
+-  Oyunlara yorum yapma
+-  Kullanıcı hesabı ve profil
+-  Karanlık /  aydınlık tema
+-  Kullanıcıya oyun önerme
 
 
-## Temel Özellik
+## 🗂️ Veritabanı
 
-Kullanıcı; kişi sayısı, platform, oyun türü ve oynanış şeklini seçerek kendisine uygun oyunları filtreleyebilecektir.
+Projede birden fazla ilişkili tablo kullanılacaktır.
 
-## Haftalık Geliştirme
+Temel tablolar:
 
-**2. Hafta:** Proje konusu belirlendi, temel tablo yapısı ve kullanılacak teknolojiler planlandı.
+- Users
+- Games
+- Genres
+- Platforms
+- Favorites
+- Reviews
+- GameImages
+- Tags
+- UserGameStatus
+
+## 📅 Haftalık İlerleme
+
+### Hafta 1-2
+- [x] Proje fikri ve tasarımı belirlendi
+- [x] ASP.NET Core MVC projesi oluşturuldu
+- [x] GitHub repository oluşturuldu
+
+### Hafta 3
+- [x] Ana sayfa oluşturuldu
+- [x] Oyunlar sayfası oluşturuldu
+- [x] Navbar oluşturuldu
+- [x] Bootstrap kullanılmaya başlandı
+- [x] Karanlık / aydınlık tema eklendi
+- [ ] Oyun kartlarının geliştirilmesi
+- [ ] Gerçek oyun görsellerinin eklenmesi
+- [ ] Arama ve filtreleme arayüzü
+
+## 🚧 Proje Durumu
+
+**Geliştirme aşamasındadır.**
+
+Frontend altyapısı oluşturulmuş olup veritabanı, kullanıcı sistemi, favoriler, yorumlar ve puanlama gibi özellikler ilerleyen haftalarda geliştirilecektir.
